@@ -30,6 +30,7 @@ h1 {
 h2 {
     font-size: 20px;
     font-weight: 300;
+    padding-top: 6px;
 }
 
 h3 {
@@ -97,6 +98,7 @@ nav a:link {
 }
 
 nav a:hover {
+    color: white; 
     text-decoration: underline;
 }
 
@@ -184,7 +186,7 @@ nav a:hover {
     display: inline-block;
     width: 315px;
     height: 250px;
-    margin: 0 6px 0 6px;
+    margin: 10px 6px 5px 6px;
 }
 
 .portfolio-item-desc {
