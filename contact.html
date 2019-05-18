@@ -7,18 +7,20 @@
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="https://use.typekit.net/axe2acx.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic" rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/animate.css">
-    <title>Contact: Michael Ryan</title>
+    <title>Profile: Michael Ryan</title>
 </head>
 <body>
 
-<div class="wrapper">
-    <header class="flex-row header-container">
-        <nav class="flex-row header-content">
-            
+<div class="container-fluid wrapper">
+    <header class="row header-container">
+        <div class="col-md-6 header-content">
             <img class="site-logo animated rubberBand" src="IMGS/site-logo.png" alt="Site Logo Michael Ryan">
+        </div>
 
+        <nav class="col-md-6 header-content d-none d-lg-block d-xl-block">
             <ul>
                 <li><a href="index.html">about.<span class="bold">me</span></a></li>
                 <li><a href="portfolio.html">my.<span class="bold">work</span></a></li>
@@ -29,35 +31,37 @@
 
     
     <!-- Mobile Nav At Bottom Of Header-->
-    <nav>
-        <ul class="nav-mobile">
+        <nav class="col-sm-12 d-block d-none d-md-block d-lg-none header-content">
+            <ul class="nav-mobile">
                 <li><a href="index.html">about.<span class="bold">me</span></a></li>
                 <li><a href="portfolio.html">my.<span class="bold">work</span></a></li>
                 <li><a href="contact.html">reach.<span class="bold">out</span></a></li>
-        </ul>
-    </nav>
+            </ul>
+        </nav>
 
-    <section class="flex-col content-header">
-        <h2>contact.<span class="bold">me</span></h2>
-    </section>
-
-    <article class="contact-body">
-        Care to reach me for something? Please use the form below:<br><br>
-        
-        <form class="flex-col">
-            <h3>Name:</h3>
-            <input type="text" name="name">
-            <h3>Email:</h3>
-            <input type="text" name="email">
-            <h3>Message:</h3>
-            <textarea name="comment"></textarea>
-            <input type="submit" name="submit">
-        </form>
-
-        <div class="flex-row social">
-                <img src="IMGS/social-media-bar.png">
+        <div class="col-md-12 col-lg-8 content-header">
+            <h2>contact.<span class="bold">me</span></h2>
         </div>
-    </article>
+
+
+
+        <article class="col-md-12 col-lg-8 contact-body">
+                Care to reach me for something? Please use the form below:<br><br>
+                
+                <form class="flex-col">
+                    <h3>Name:</h3>
+                    <input type="text" name="name">
+                    <h3>Email:</h3>
+                    <input type="text" name="email">
+                    <h3>Message:</h3>
+                    <textarea name="comment"></textarea>
+                    <input type="submit" name="submit">
+                </form>
+        
+                <div class="flex-row social">
+                        <img src="IMGS/social-media-bar.png">
+                </div>
+            </article>
     <div class="footer-push"></div>
 
 <!-- End of Wrapper -->

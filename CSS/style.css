@@ -2,7 +2,6 @@
 
 /* Sitewide Variables */
 :root {
-    --site-width: 70%;
     --site-theme-color: #9a59b5; /* #f2c40f; */
     --bg-color: #ecf0f1;
     --text-color: #282828;
@@ -18,22 +17,19 @@ body, html {
     background-color: var(--bg-color);
     width: 100%;
     height: 100%;
+    margin: 0;
 }
 
 h1 {
     font-family: 'urbane-rounded', sans-serif;
     font-size: 30px;
     font-weight: 600;
-    padding-left: 20px;
-    padding-bottom: 15px;
     color: var(--text-color);
 }
 
 h2 {
     font-size: 20px;
     font-weight: 300;
-    padding-left: 20px;
-    padding-top: 6px;
 }
 
 h3 {
@@ -55,8 +51,8 @@ h3 {
 /* Wrapper */
 .wrapper {
     padding: 0px;
-    width: 100%;
     min-height: 100%;
+    margin: 0;
     margin-bottom: -50px;
 }
 
@@ -64,17 +60,16 @@ h3 {
 .header-container {
    background-color: var(--site-theme-color);
    margin: 0 auto;
-   width: 100%;
    height: 100px;
    align-content: center;
    justify-content: center;
 }
 
 .header-content {
-    width: var(--site-width);
     font-family: urbane-rounded, sans-serif;
     font-weight: 300;
     text-align: center;
+    padding: 0;
 }
 
 .header-content li {
@@ -140,7 +135,6 @@ nav a:hover {
  /* ---CONTENT START */
 .content-header {
     height: 40px;
-    width: var(--site-width);
     background-color: var(--site-theme-color);
     margin: 0 auto;
     margin-top: 20px;
@@ -149,8 +143,8 @@ nav a:hover {
 }
 
 .content-body, .portfolio-body, .contact-body {
+    margin: 0;
     position: relative;
-    width: var(--site-width);
     background-image: url("../IMGS/bg-content-main.png");
     background-size: cover;
     background-position: bottom right;
@@ -181,7 +175,6 @@ nav a:hover {
 }
 
 .social {
-    width: 100%;
     justify-content: flex-end;
 }
 
@@ -263,7 +256,6 @@ input[type=submit] {
 }
 
 footer {
-    width: 100%;
     height: 50px;
     background-color: #282828;
     display: flex;
